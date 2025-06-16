@@ -1,0 +1,73 @@
+[debug] [2025-06-16T02:24:50.436Z] ----------------------------------------------------------------------
+[debug] [2025-06-16T02:24:50.439Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hbrot\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-06-16T02:24:50.439Z] CLI Version:   14.7.0
+[debug] [2025-06-16T02:24:50.439Z] Platform:      win32
+[debug] [2025-06-16T02:24:50.439Z] Node Version:  v22.16.0
+[debug] [2025-06-16T02:24:50.439Z] Time:          Sun Jun 15 2025 20:24:50 GMT-0600 (hora estándar central)
+[debug] [2025-06-16T02:24:50.440Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-16T02:24:50.623Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-16T02:24:50.623Z] > authorizing via signed-in user (hbrotherinbox@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\hbrot\Registro\mi-app-contable
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-06-16T02:25:28.640Z] Using project from CLI flag: stifemeeej
+[debug] [2025-06-16T02:25:28.641Z] Checked if tokens are valid: true, expires at: 1750043266175
+[debug] [2025-06-16T02:25:28.641Z] Checked if tokens are valid: true, expires at: 1750043266175
+[debug] [2025-06-16T02:25:28.642Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/stifemeeej [none]
+[debug] [2025-06-16T02:25:28.947Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/stifemeeej 200
+[debug] [2025-06-16T02:25:28.948Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/stifemeeej {"projectId":"stifemeeej","projectNumber":"495902684961","displayName":"STIFEMEEEJ","name":"projects/stifemeeej","resources":{"hostingSite":"stifemeeej"},"state":"ACTIVE","etag":"1_cba0f1c7-f391-4b9e-a5c6-f915d1648f26"}
+[info] i  Using project stifemeeej (STIFEMEEEJ) 
+[info] 
+=== Hosting Setup
+[debug] [2025-06-16T02:25:28.952Z] Checked if tokens are valid: true, expires at: 1750043266175
+[debug] [2025-06-16T02:25:28.952Z] Checked if tokens are valid: true, expires at: 1750043266175
+[debug] [2025-06-16T02:25:28.953Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/stifemeeej [none]
+[debug] [2025-06-16T02:25:29.145Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/stifemeeej 200
+[debug] [2025-06-16T02:25:29.145Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/stifemeeej {"projectId":"stifemeeej","projectNumber":"495902684961","displayName":"STIFEMEEEJ","name":"projects/stifemeeej","resources":{"hostingSite":"stifemeeej"},"state":"ACTIVE","etag":"1_cba0f1c7-f391-4b9e-a5c6-f915d1648f26"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-06-16T02:29:06.823Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2025-06-16T02:29:06.895Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2025-06-16T02:29:06.895Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"11.9.1","browserURL":"https://www.gstatic.com/firebasejs/11.9.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/11.9.1/firebase.tgz"},"live":{"version":"11.9","browserURL":"https://www.gstatic.com/firebasejs/live/11.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/11.9/firebase.tgz"},"components":{"ai":"https://www.gstatic.com/firebasejs/11.9.1/firebase-ai.js","analytics":"https://www.gstatic.com/firebasejs/11.9.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/11.9.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/11.9.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/11.9.1/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/11.9.1/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/11.9.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/11.9.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/11.9.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/11.9.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/11.9.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/11.9.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/11.9.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/11.9.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/11.9.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/11.9.1/firebase-database.js","vertexai":"https://www.gstatic.com/firebasejs/11.9.1/firebase-vertexai.js","data-connect":"https://www.gstatic.com/firebasejs/11.9.1/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/11.9.1/firebase-firestore.memory.js"}}
+[info] i  build/index.html is unchanged 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\hbrot\Registro\mi-app-contable is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=391588033&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-06-16T02:29:07.422Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2025-06-16T02:29:07.423Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2025-06-16T02:29:07.733Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2025-06-16T02:29:07.733Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2025-06-16T02:29:07.738Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2025-06-16T02:29:08.061Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2025-06-16T02:29:08.061Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"elramostm","id":59027642,"node_id":"MDQ6VXNlcjU5MDI3NjQy","avatar_url":"https://avatars.githubusercontent.com/u/59027642?v=4","gravatar_id":"","url":"https://api.github.com/users/elramostm","html_url":"https://github.com/elramostm","followers_url":"https://api.github.com/users/elramostm/followers","following_url":"https://api.github.com/users/elramostm/following{/other_user}","gists_url":"https://api.github.com/users/elramostm/gists{/gist_id}","starred_url":"https://api.github.com/users/elramostm/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/elramostm/subscriptions","organizations_url":"https://api.github.com/users/elramostm/orgs","repos_url":"https://api.github.com/users/elramostm/repos","events_url":"https://api.github.com/users/elramostm/events{/privacy}","received_events_url":"https://api.github.com/users/elramostm/received_events","type":"User","user_view_type":"private","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"notification_email":null,"public_repos":2,"public_gists":0,"followers":0,"following":0,"created_at":"2019-12-18T17:37:25Z","updated_at":"2025-06-16T01:39:08Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":0,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as elramostm 
+[info] 
